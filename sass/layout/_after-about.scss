@@ -1,0 +1,43 @@
+.after-about-list {
+    display: flex;
+}
+
+.after-about-item:not(:last-child) {
+margin-right: 30px ;
+}
+
+.after-about {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+.after-about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.after-about-wrap {
+    position: relative;
+}
+
+.after-about-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--first-title-color);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8)
+}

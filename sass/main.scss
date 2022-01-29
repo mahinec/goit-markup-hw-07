@@ -1,0 +1,21 @@
+@import "./utils/vars";
+@import "./base/reset";
+@import "./base/common";
+
+// COMPONENTS
+@import "./components/container";
+@import "./components/modal";
+@import "./components/btn";
+
+// LAYOUT
+@import "./layout/header";
+@import "./layout/solutions";
+@import "./layout/about";
+@import "./layout/after-about";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/portfolio-nav-btn";
+@import "./layout/portfolio-ptoject";
+@import "./layout/portfolio-project-wrap";
+

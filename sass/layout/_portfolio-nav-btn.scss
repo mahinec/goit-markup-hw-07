@@ -1,0 +1,40 @@
+.list-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+} 
+
+.nav-btn {
+    padding-top: 94px;
+    padding-bottom: 94px; 
+}
+.portfolio-nav-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #f5f4fa;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: transparent;
+    padding: 6px 22px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus, &:hover {
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    }
+}
+
+.list-btn-item:not(:last-child) {
+    margin-right: 8px;
+}
+
