@@ -1,21 +1,21 @@
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 } 
 
-.header-list {
+.site-list {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.header-connect {
+.connect {
     margin-left: auto;
     display: flex;
     
 }
 
-.header-item:not(:last-child) {
+.site-list__item:not(:last-child) {
     margin-right: 52px;
 }
 
@@ -26,11 +26,11 @@
     
 }
 
-.header-title-highlight {
+.site-list__highlight {
     color: var(--accent-color);
 }
 
-.header-link {
+.site-list__link {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
@@ -46,7 +46,7 @@
     }
 }
 
-.header-email  {
+.connect-list__email  {
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -61,7 +61,7 @@
     }
 } 
 
-.header-tel {
+.connect-list__tel {
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -78,11 +78,11 @@
     }
 } 
 
-.tel-icon {
+.connect-list__icon {
         margin-right: 10px;
 }
 
-.header-title {
+.header--logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -91,11 +91,11 @@
     color: #000000;
     margin-right: 93px;
 }
-.header-title-web {
+.logo__title-web {
     color: var(--accent-color);
 }
 
-.current {
+.site-list__current {
     color: var(--accent-color);
     position: relative;
     &::after {

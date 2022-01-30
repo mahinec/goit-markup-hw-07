@@ -1,4 +1,4 @@
-.about-frame-icon {
+.about-list__frame-icon {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -10,7 +10,6 @@
 }
 
 .about-list {
-    display: flex;
     width: 270px;
     &:not(:last-child) {
         margin-right: 30px;
@@ -23,10 +22,10 @@
     padding-bottom: 94px;
 }
 
-.about-container {
+.about__container {
     display: flex;
 }
-.about-title {
+.about-list__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -36,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.about-text {
+.about-list__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

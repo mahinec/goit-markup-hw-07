@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.after-about-item:not(:last-child) {
+.after-about-list__item:not(:last-child) {
 margin-right: 30px ;
 }
 
@@ -11,7 +11,7 @@ margin-right: 30px ;
     padding-bottom: 94px;
 }
 
-.after-about-title {
+.after-about__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -21,11 +21,11 @@ margin-right: 30px ;
     text-align: center;
 }
 
-.after-about-wrap {
+.after-about-list__wrap {
     position: relative;
 }
 
-.after-about-text {
+.after-about-list__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
